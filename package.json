@@ -1,0 +1,32 @@
+{
+  "name": "agoric-installer-node",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "build": "yarn clean && tsc && yarn copy-files",
+    "start": "npx nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"npx ts-node src/server.ts\"",
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "copy-files": "copyfiles -u 1 src/views/**/*.jsx dist/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "express-react-views": "^0.11.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^14.14.37",
+    "copyfiles": "^2.4.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
