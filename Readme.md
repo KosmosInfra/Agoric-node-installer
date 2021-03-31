@@ -1,4 +1,4 @@
-# Agoric Node Installer helper
+# Agoric Node Installer Helper
 
 This is the helper repository for https://validate.agoric.com/ TestNet. It contains:
 
