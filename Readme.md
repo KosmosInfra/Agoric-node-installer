@@ -11,7 +11,7 @@ This is the helper repository for https://validate.agoric.com/ TestNet. It conta
 Install Docker from https://docs.docker.com/engine/install/
 
 ## Configure
-Put your Operator key name and Keyring password parameters in `agoric-config.json` file
+Put your `Operator key name` and `Keyring password` parameters in `agoric-config.json` file
 ## Run
 
 ### Build Docker Container
@@ -25,7 +25,7 @@ Run command: `docker run -p 5124:5124 -d agoric-validator-app`
 
 Helper application will be available on 127.0.0.1:5124
 
-![Screenshot](https://imgur.com/a/bZJRyet)
+![Screenshot](https://i.imgur.com/wx5RfAI.png)
 
 Helper run all steps automatically, except 3 step (Waiting tokens to arrive).
 You will need to request tokens from the faucet to continue helper execution.
