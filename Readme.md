@@ -25,7 +25,7 @@ Run command: `docker run -p 5124:5124 -d agoric-validator-app`
 
 Helper application will be available on 127.0.0.1:5124
 
-![Screenshot](https://postimg.cc/6TNGXD8Q)
+![Screenshot](https://imgur.com/a/bZJRyet)
 
 Helper run all steps automatically, except 3 step (Waiting tokens to arrive).
 You will need to request tokens from the faucet to continue helper execution.
